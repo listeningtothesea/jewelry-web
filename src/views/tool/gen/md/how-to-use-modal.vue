@@ -15,10 +15,10 @@ const [Modal] = useVbenModal({
   <Modal :width="700">
     <div class="p-4">
       <div class="mb-4 text-lg font-bold text-red-500">
-        后端RuoYi-Vue-Plus V6，BELL代码生成模板专用，与以往版本不兼容
+        后端Piaotu-Vue-Plus V6，BELL代码生成模板专用，与以往版本不兼容
       </div>
       <div class="mb-4 text-lg font-bold text-blue-500">
-        脚本位于 /scripts/RuoYiPlusV6Bell-Plus专用代码生成模板,请自行复制
+        脚本位于 /scripts/PiaotuPlusV6Bell-Plus专用代码生成模板,请自行复制
       </div>
       <div class="flex flex-wrap items-center">
         <div>

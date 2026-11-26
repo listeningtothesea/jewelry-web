@@ -321,7 +321,7 @@ defineExpose({
             label="生成包路径"
             name="packageName"
             :rules="formRules.packageName"
-            extra="生成在哪个java包下, 例如 com.ruoyi.system"
+            extra="生成在哪个java包下, 例如 com.piaotu.system"
           >
             <Input class="w-full" v-model:value="formData.packageName" />
           </FormItem>

@@ -177,7 +177,7 @@ async function handleSubmit(values: any) {
     <div class="mt-2 text-sm font-medium break-all text-orange-500">
       需要支持变量类型需要更改后端代码(原版只支持string类型)
       <div>
-        ruoyi-modules/ruoyi-workflow/src/main/java/org/dromara/workflow/domain/bo/FlowVariableBo.java
+        piaotu-modules/piaotu-workflow/src/main/java/org/dromara/workflow/domain/bo/FlowVariableBo.java
       </div>
       将value的类型改为Object才能使用
     </div>

@@ -50,7 +50,7 @@ const symmetricEncryption: BaseSymmetricEncryption = new Sm4Encryption();
 
 ## 后端加密必须为hex字符串
 
-位置`ruoyi-common/ruoyi-common-encrypt/src/main/java/org/dromara/common/encrypt/filter/EncryptResponseBodyWrapper.java`
+位置`piaotu-common/piaotu-common-encrypt/src/main/java/org/dromara/common/encrypt/filter/EncryptResponseBodyWrapper.java`
 
 使用SM相关修改为`xxxxHex`方法而非`base64`!!!
 

@@ -1,6 +1,6 @@
 ## 置顶说明
 
-当前分支只适配**后端v6版本** v5版本前往[gitee地址](https://gitee.com/dapppp/ruoyi-plus-vben5)
+当前分支只适配**后端v6版本** v5版本前往[gitee地址](https://gitee.com/dapppp/piaotu-plus-vben5)
 
 最低需要使用`node版本>22`
 
@@ -10,9 +10,9 @@
 
 对应后端项目:
 
-分布式 [RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus/tree/6.X/)
+分布式 [Piaotu-Vue-Plus](https://gitee.com/dromara/Piaotu-Vue-Plus/tree/6.X/)
 
-微服务 [RuoYi-Cloud-Plus](https://gitee.com/dromara/RuoYi-Cloud-Plus/tree/6.X/)
+微服务 [Piaotu-Cloud-Plus](https://gitee.com/dromara/Piaotu-Cloud-Plus/tree/6.X/)
 
 ## 预览
 

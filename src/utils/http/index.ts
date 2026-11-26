@@ -38,7 +38,7 @@ const { apiURL, clientId, enableEncrypt, rsaPublicKey, rsaPrivateKey } =
  *
  * 你可以使用Sm2Encryption来替换 后端也需要同步替换公私钥对
  *
- * 后端文件位置: ruoyi-common/ruoyi-common-encrypt/src/main/java/org/dromara/common/encrypt/filter/DecryptRequestBodyWrapper.java
+ * 后端文件位置: piaotu-common/piaotu-common-encrypt/src/main/java/org/dromara/common/encrypt/filter/DecryptRequestBodyWrapper.java
  *
  * 注意前端sm-crypto库只能支持04开头的公钥! 否则加密会有问题 你可以使用前端的import { logSm2KeyPair } from '@/utils';方法来生成
  * 如果你生成的公钥开头不是04 那么不能正常加密
@@ -102,7 +102,7 @@ const alovaInstance = createAlova({
     /**
      * 添加全局clientId
      * 关于header的clientId被错误绑定到实体类
-     * https://gitee.com/dapppp/ruoyi-plus-vben5/issues/IC0BDS
+     * https://gitee.com/dapppp/piaotu-plus-vben5/issues/IC0BDS
      */
     config.headers.ClientID = clientId;
     /**
